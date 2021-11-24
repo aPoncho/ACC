@@ -1,0 +1,81 @@
+#nosotros {
+    background-color: nth($colors, 2);
+    color: nth($colors, 5);
+    padding: 3rem;
+
+    .presentacion {
+        text-align: center;
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        
+        h2 {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 5%;
+        }
+
+    }
+
+    .historia {
+        text-align: center;
+    
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 7px;
+            margin-bottom: 7px;
+        }
+        
+        .historia-contenedor {
+            @include section-container;
+            margin-top: 25px;
+    
+            @media screen and (max-width: 960px) {
+                @include section-container-mobile;
+            }
+    
+            div img {
+                width: 70%;
+                border-radius: 2%;
+            }
+        }
+    }
+    
+}
+
+
+#productos {
+    background-color: nth($colors, 3);
+    text-align: center;
+    padding: 3rem;
+
+    h3 {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        font-size: 2rem;
+    }
+    
+    .productos-contenedor {
+        @include section-container;
+        margin-top: 25px;
+
+        @media screen and (max-width: 960px) {
+            @include section-container-mobile;
+        }
+
+        .img-contenedor {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        
+            div img{
+                border-radius: 70%;
+                width: 50%;
+                height: 70%;
+                opacity: 50%;
+            }
+        }
+    }
+}
