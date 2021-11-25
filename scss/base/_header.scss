@@ -24,7 +24,7 @@ header {
                 a {                
                     text-decoration: none;
                     list-style: none;
-                    color: rgb(0, 0, 0);
+                    color: nth($colors, 5);
 
                     img {                        
                         width: 13%;
