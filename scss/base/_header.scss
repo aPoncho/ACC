@@ -3,7 +3,7 @@ header {
     background-color: nth($colors, 1);
     position: fixed;
     z-index: 3;
-    height: 14%;
+    height: 12%;
 
     .nav-container .nav {
         @include section-container;
@@ -14,7 +14,7 @@ header {
         ul {
             display: flex;
             align-items: center;
-            justify-content: end;
+            justify-content: flex-end;
 
             li {                
                 display: inline;
@@ -34,7 +34,7 @@ header {
         }
     }
      
-
+    /*barra navegacion movil/tablet */
     .mob-nav {
         background-color: #1E1E23;
         height: 65px;

@@ -1,6 +1,6 @@
 footer {
     @include section-container;
-    background-color: nth($colors, 4);
+    background-color: nth($colors, 3);
     color: black;
     padding-top: 3rem;
 
@@ -15,5 +15,16 @@ footer {
             width: 70%;
             border-radius: 10%;
         }
+
+        ul {
+            margin-left: 0px;
+            li {
+                list-style: none;
+            
+                a {
+                    text-decoration: none;
+                }
+            }
+        }    
     }
 }
