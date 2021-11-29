@@ -24,10 +24,14 @@ header {
                 a {                
                     text-decoration: none;
                     list-style: none;
-                    color: nth($colors, 5);
+                    color: nth($colors, 5);    
 
                     img {                        
                         width: 13%;
+                    }
+                
+                    &:hover {
+                        opacity: 50%;
                     }
                 }
             }

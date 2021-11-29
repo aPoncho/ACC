@@ -54,6 +54,10 @@ header .nav-container .nav ul li a img {
   width: 13%;
 }
 
+header .nav-container .nav ul li a:hover {
+  opacity: 50%;
+}
+
 header .mob-nav {
   background-color: #1E1E23;
   height: 65px;
@@ -313,6 +317,10 @@ header .mob-nav #menu li .a-mob:hover {
   opacity: 50%;
 }
 
+#productos .productos-contenedor .img-contenedor div img:hover {
+  opacity: 100%;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,10 +360,6 @@ footer div {
 footer div img {
   width: 70%;
   border-radius: 10%;
-}
-
-footer div ul {
-  margin-left: 0px;
 }
 
 footer div ul li {
