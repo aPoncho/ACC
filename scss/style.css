@@ -1,9 +1,8 @@
 header {
-  width: 100%;
   background-color: #00382b;
   position: fixed;
   z-index: 3;
-  height: 12%;
+  width: 100%;
   /*barra navegacion movil/tablet */
 }
 
@@ -15,14 +14,15 @@ header .nav-container .nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 960px) {
   header .nav-container .nav {
     display: none;
+    height: 12%;
   }
 }
 
@@ -59,7 +59,7 @@ header .nav-container .nav ul li a:hover {
 }
 
 header .mob-nav {
-  background-color: #1E1E23;
+  background-color: #00382b;
   height: 65px;
 }
 
@@ -155,7 +155,7 @@ header .mob-nav #menu {
   padding: 0;
   list-style-type: none;
   position: absolute;
-  width: 180px;
+  width: 100%;
   height: 400px;
   -webkit-box-shadow: 0 0 10px #85888C;
           box-shadow: 0 0 10px #85888C;
@@ -196,8 +196,8 @@ header .mob-nav #menu li .a-mob:hover {
 
 #nosotros {
   background-color: #c1e0d2;
-  color: #00382b;
   padding: 3rem;
+  font-size: 1.4rem;
 }
 
 #nosotros .presentacion {
@@ -210,7 +210,7 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 #nosotros .presentacion h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-style: italic;
   margin-bottom: 5%;
 }
@@ -220,7 +220,7 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 #nosotros .historia h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: 7px;
   margin-bottom: 7px;
 }
@@ -263,7 +263,7 @@ header .mob-nav #menu li .a-mob:hover {
   background-color: #c1e0d2;
   text-align: center;
   padding: 3rem;
-  color: #00382b;
+  font-size: 1.4rem;
 }
 
 #productos h3 {
@@ -354,11 +354,11 @@ footer {
 
 footer div {
   margin: 4%;
-  width: 28%;
+  width: 30%;
 }
 
 footer div img {
-  width: 70%;
+  width: 50%;
   border-radius: 10%;
 }
 

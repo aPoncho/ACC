@@ -1,7 +1,7 @@
 #nosotros {
     background-color: nth($colors, 4);
-    color: nth($colors, 1);
     padding: 3rem;
+    font-size: 1.4rem;
 
     .presentacion {
         text-align: center;
@@ -12,7 +12,7 @@
         }
         
         h2 {
-            font-size: 1.2rem;
+            font-size: 2rem;
             font-style: italic;
             margin-bottom: 5%;
         }
@@ -23,7 +23,7 @@
         text-align: center;
     
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             margin-top: 7px;
             margin-bottom: 7px;
         }
@@ -50,7 +50,7 @@
     background-color: nth($colors, 4);
     text-align: center;
     padding: 3rem;
-    color: nth($colors, 1);
+    font-size: 1.4rem;
 
     h3 {
         margin-top: 60px;
