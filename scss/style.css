@@ -213,12 +213,14 @@ header .mob-nav #menu li .a-mob:hover {
 #nosotros .presentacion h1 {
   font-size: 2.5rem;
   font-weight: 600;
+  color: #232429;
 }
 
 #nosotros .presentacion h2 {
   font-size: 2rem;
   font-style: italic;
   margin-bottom: 5%;
+  color: #393a3f;
 }
 
 #nosotros .historia {
@@ -226,9 +228,10 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 #nosotros .historia h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-top: 7px;
   margin-bottom: 7px;
+  color: #393a3f;
 }
 
 #nosotros .historia .historia-contenedor {
@@ -243,6 +246,7 @@ header .mob-nav #menu li .a-mob:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 25px;
+  color: #55565b;
 }
 
 @media screen and (max-width: 960px) {
@@ -276,6 +280,7 @@ header .mob-nav #menu li .a-mob:hover {
   margin-top: 60px;
   margin-bottom: 100px;
   font-size: 2rem;
+  color: #393a3f;
 }
 
 #productos .productos-contenedor {
@@ -290,6 +295,7 @@ header .mob-nav #menu li .a-mob:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 25px;
+  color: #55565b;
 }
 
 @media screen and (max-width: 960px) {
@@ -339,7 +345,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #77ad9e;
-  color: black;
+  color: #232429;
   padding-top: 3rem;
 }
 
