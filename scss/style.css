@@ -4,6 +4,35 @@
   padding: 0px;
 }
 
+html {
+  background-color: #f4f3e8;
+}
+
+/*falta corregir alturas de las imagenes en un editor*/
+@media screen and (min-width: 641px) {
+  #top {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 640) {
+  #top {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  #top .carousel {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 640) {
+  #top .carousel {
+    height: 60vh;
+  }
+}
+
 header {
   background-color: #00382b;
   position: fixed;
@@ -201,7 +230,7 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 #nosotros {
-  background-color: #c1e0d2;
+  background-color: #f4f3e8;
   padding: 3rem;
   font-size: 1.4rem;
 }
@@ -270,7 +299,7 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 #productos {
-  background-color: #c1e0d2;
+  background-color: #f4f3e8;
   text-align: center;
   padding: 3rem;
   font-size: 1.4rem;

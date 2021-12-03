@@ -1,0 +1,22 @@
+
+/*falta corregir alturas de las imagenes en un editor*/
+#top {
+    @media screen and (min-width: 641px) {
+    height: 100vh;
+    }
+
+    @media screen and (max-width: 640) {        
+        height: 60vh;
+    }
+
+    .carousel{
+        @media screen and (min-width: 641px) {    
+        height: 100vh;
+        }
+
+        @media screen and (max-width: 640){
+            height: 60vh;
+        }
+            
+    }
+}
