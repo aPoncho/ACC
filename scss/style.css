@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -6,29 +6,18 @@
 
 html {
   background-color: #f4f3e8;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 /*falta corregir alturas de las imagenes en un editor*/
 @media screen and (min-width: 641px) {
-  #top {
+  #top, #top .carousel, #top .carousel div, #top .carousel div img {
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 640) {
-  #top {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 641px) {
-  #top .carousel {
-    height: 100vh;
-  }
-}
-
-@media screen and (max-width: 640) {
-  #top .carousel {
+  #top, #top .carousel, #top .carousel div, #top .carousel div img {
     height: 60vh;
   }
 }
@@ -207,6 +196,7 @@ header .mob-nav #menu {
   transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  text-align: center;
 }
 
 header .mob-nav #menu li {

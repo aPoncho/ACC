@@ -3,8 +3,10 @@
     padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
 
 html {
     background-color: nth($colors, 5);
+    font-family: 'Readex Pro', sans-serif;
 }
