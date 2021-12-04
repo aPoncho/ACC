@@ -203,6 +203,11 @@ header .mob-nav #menu li {
   padding: 10px 0;
   -webkit-transition-delay: 2s;
           transition-delay: 2s;
+  border-bottom: 2px dotted #d3d4d9;
+}
+
+header .mob-nav #menu li:first-child {
+  border-top: 2px dotted #d3d4d9;
 }
 
 header .mob-nav #menu li .a-mob {
