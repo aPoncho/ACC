@@ -1,3 +1,5 @@
+/*solucionar temas de espaciado y responsive*/
+
 footer {
     @include section-container;
     background-color: nth($colors, 3);
@@ -7,15 +9,9 @@ footer {
     @media screen and (max-width: 960px) {
         @include section-container-mobile;        
     }
-
+        
     div {
-        margin: 4%;
-        width: 30%;
-
-        img {
-            width: 50%;
-            border-radius: 10%;
-        }
+        /*solucionar centrado*/
 
         ul {
             
@@ -26,6 +22,6 @@ footer {
                     text-decoration: none;
                 }
             }
-        }    
+        }
     }
 }

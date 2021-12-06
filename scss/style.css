@@ -4,7 +4,7 @@
   padding: 0px;
 }
 
-html {
+body {
   background-color: #f4f3e8;
   font-family: 'Readex Pro', sans-serif;
 }
@@ -230,6 +230,7 @@ header .mob-nav #menu li .a-mob:hover {
 .presentacion {
   margin-top: 40px;
   text-align: center;
+  background-color: #f4f3e8;
 }
 
 .presentacion h1 {
@@ -362,6 +363,7 @@ header .mob-nav #menu li .a-mob:hover {
   opacity: 100%;
 }
 
+/*solucionar temas de espaciado y responsive*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,21 +395,11 @@ footer {
   }
 }
 
-footer div {
-  margin: 4%;
-  width: 30%;
-}
-
-footer div img {
-  width: 50%;
-  border-radius: 10%;
-}
-
-footer div ul li {
+footer ul li {
   list-style: none;
 }
 
-footer div ul li a {
+footer ul li a {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
