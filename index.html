@@ -110,8 +110,7 @@
         </section>
         <section id="nosotros">
             <!--Historia y actualidad de la empresa-->
-            <div class="historia">
-               
+            <div class="historia">  
                 <div class="historia-contenedor">
                     <div>
                         <h3>
@@ -120,6 +119,8 @@
                         <p>
                             Aqui se cuenta la historia de la empresa, año en el que partio y todo eso
                         </p>
+                    </div>
+                    <div>
                         <h3>
                             Nuestro Presente
                         </h3>
@@ -132,9 +133,6 @@
                             <li>Tambien trabajamos en conjunto con pequeños agricultores locales</li>
                             <li>Realizamos re-stock hasta 3 veces por semana</li>
                         </ul>
-                    </div>
-                    <div>
-                        <img src="./src/multimedia/images/panoramica-campo.jpeg" alt="Foto campo de cosecha en sus inicios" class="img-historia1">
                     </div>
                 </div>
             </div>
@@ -162,30 +160,31 @@
                 </div>
             </div>
         </section>
-        <form action="">
+        <form action="" id="contacto">
+            <h2>Contáctanos</h2>
             <ul>
                 <li>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="user_name" placeholder="Nombre" class="input-area">
                 </li>
                 <li>
-                    <label for="mail">Correo electrónico:</label>
-                    <input type="email" id="mail" name="user_mail">
+                    <input type="email" id="mail" name="user_mail" placeholder="E-Mail" class="input-area">
                 </li>
                 <li>
-                    <label for="msg">Mensaje:</label>
-                    <textarea id="msg" name="user_message"></textarea>
+                    <textarea id="msg" name="message" placeholder="Escriba aquí su mensaje" class="input-area"></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Enviar" class="submit">
                 </li>
             </ul>
         </form>
     </main>
     <footer>
         <!--logo-->
-        <div class="logo-footer">
+        <div class="logo-container">
             <img src="src/multimedia/images/logo/ACC-logo-360px.jpeg" alt="ACC">
         </div>
         <!--Informacion de contacto-->
-        <div id="contacto">
+        <div class="info-container">
             <h3>
                 Chile
             </h3>
@@ -197,7 +196,7 @@
             </ul>
         </div>
         <!--mapa de ubicacion-->
-        <div class="contenedor-mapa">
+        <div class="map-container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.7286158306965!2d-70.68445068520776!3d-33.48241568076485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c4c54dd28a85%3A0x879716a3a94bc783!2sAv%20Maip%C3%BA%203301%2C%20Pedro%20Aguirre%20Cerda%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1635200185274!5m2!1ses-419!2scl"
                 width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>

@@ -1,0 +1,56 @@
+form {
+    background-image: url('../../src/multimedia/images/panoramica-campo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include section-container-mobile;
+    padding: 7em;
+
+    @media screen and (max-width: 960px) {
+        @include section-container-mobile;
+    }
+
+    h2 {
+        color: nth($grayscale, 2);
+    }
+
+    ul {
+        opacity: 90%;
+        
+        li{
+            list-style: none;
+            margin-top: 1em;
+            
+            .input-area {
+                box-sizing: border-box;
+                display: block;
+                border-radius: 5px;
+                padding: 0.5em;
+                width: 25em;
+                max-width: 80vw;
+                border: 1px solid #c1c2c7;
+
+                &:focus {
+                    background: nth($colors, 4);
+                    outline: none;
+                }
+
+            }
+            
+            .submit {
+                width: 25em;
+                max-width: 80vw;
+                border: 1px solid #c1c2c7;
+                border-radius: 5px;
+                background-color: nth($colors, 4);
+
+
+                &:hover {
+                    background-color: lighten(nth($colors, 4), 5%);
+                    outline: none;
+                    
+                }
+            }
+        }
+    }
+    
+}

@@ -2,6 +2,7 @@
 
 footer {
     @include section-container;
+    justify-content: space-around;
     background-color: nth($colors, 3);
     color: nth($grayscale, 1);
     padding-top: 3rem;
@@ -11,10 +12,11 @@ footer {
     }
         
     div {
-        /*solucionar centrado*/
+        margin: 2em;
 
-        ul {
-            
+        img, iframe, ul {
+            max-width: 75vw;
+
             li {
                 list-style: none;
             

@@ -228,7 +228,7 @@ header .mob-nav #menu li .a-mob:hover {
 }
 
 .presentacion {
-  margin-top: 40px;
+  padding: 10em;
   text-align: center;
   background-color: #f4f3e8;
 }
@@ -242,7 +242,6 @@ header .mob-nav #menu li .a-mob:hover {
 .presentacion h2 {
   font-size: 2rem;
   font-style: italic;
-  margin-bottom: 5%;
   color: #393a3f;
 }
 
@@ -250,7 +249,6 @@ header .mob-nav #menu li .a-mob:hover {
   background-color: #f4f3e8;
   padding: 3rem;
   font-size: 1.4rem;
-  margin-top: 40px;
 }
 
 #nosotros .historia {
@@ -272,9 +270,6 @@ header .mob-nav #menu li .a-mob:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 25px;
   color: #55565b;
 }
@@ -288,15 +283,14 @@ header .mob-nav #menu li .a-mob:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
-#nosotros .historia .historia-contenedor div img {
-  width: 70%;
-  border-radius: 2%;
+#nosotros .historia .historia-contenedor div {
+  margin: 2em;
 }
 
 #productos {
@@ -321,9 +315,6 @@ header .mob-nav #menu li .a-mob:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 25px;
   color: #55565b;
 }
@@ -337,9 +328,9 @@ header .mob-nav #menu li .a-mob:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -363,6 +354,80 @@ header .mob-nav #menu li .a-mob:hover {
   opacity: 100%;
 }
 
+form {
+  background-image: url("../../src/multimedia/images/panoramica-campo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7em;
+}
+
+@media screen and (max-width: 960px) {
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+form h2 {
+  color: #393a3f;
+}
+
+form ul {
+  opacity: 90%;
+}
+
+form ul li {
+  list-style: none;
+  margin-top: 1em;
+}
+
+form ul li .input-area {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 25em;
+  max-width: 80vw;
+  border: 1px solid #c1c2c7;
+}
+
+form ul li .input-area:focus {
+  background: #c1e0d2;
+  outline: none;
+}
+
+form ul li .submit {
+  width: 25em;
+  max-width: 80vw;
+  border: 1px solid #c1c2c7;
+  border-radius: 5px;
+  background-color: #c1e0d2;
+}
+
+form ul li .submit:hover {
+  background-color: #d2e9de;
+  outline: none;
+}
+
 /*solucionar temas de espaciado y responsive*/
 footer {
   display: -webkit-box;
@@ -372,9 +437,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #77ad9e;
   color: #232429;
   padding-top: 3rem;
@@ -389,17 +453,25 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
-footer ul li {
+footer div {
+  margin: 2em;
+}
+
+footer div img, footer div iframe, footer div ul {
+  max-width: 75vw;
+}
+
+footer div img li, footer div iframe li, footer div ul li {
   list-style: none;
 }
 
-footer ul li a {
+footer div img li a, footer div iframe li a, footer div ul li a {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

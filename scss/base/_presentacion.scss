@@ -1,0 +1,18 @@
+.presentacion {
+    padding: 10em;
+    text-align: center;
+    background-color: nth($colors, 5);
+    
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: nth($grayscale, 1);
+    }
+    
+    h2 {
+        font-size: 2rem;
+        font-style: italic;
+        color: nth($grayscale, 2);
+    }
+
+}

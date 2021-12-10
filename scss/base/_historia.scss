@@ -1,0 +1,30 @@
+#nosotros {
+    background-color: nth($colors, 5);
+    padding: 3rem;
+    font-size: 1.4rem;
+
+    .historia {
+        text-align: center;
+    
+        h3 {
+            font-size: 2rem;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            color: nth($grayscale, 2);
+        }
+        
+        .historia-contenedor {
+            @include section-container;
+            margin-top: 25px;
+            color: nth($grayscale, 3);
+    
+            @media screen and (max-width: 960px) {
+                @include section-container-mobile;
+            }
+
+            div {
+                margin: 2em;
+            }
+        }
+    }   
+}
