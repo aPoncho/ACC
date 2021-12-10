@@ -10,20 +10,27 @@
             font-size: 2rem;
             margin-top: 7px;
             margin-bottom: 7px;
-            color: nth($grayscale, 2);
+            color: nth($grayscale, 1);
         }
         
         .historia-contenedor {
-            @include section-container;
+            display: flex;
+            flex-direction: column;
             margin-top: 25px;
-            color: nth($grayscale, 3);
+            color: nth($grayscale, 2);
     
             @media screen and (max-width: 960px) {
                 @include section-container-mobile;
             }
 
             div {
+                display: block;
+                box-sizing: border-box;
                 margin: 2em;
+                
+                ul{
+                    list-style: none;
+                }
             }
         }
     }   

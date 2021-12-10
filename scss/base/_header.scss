@@ -8,8 +8,8 @@ header {
     .nav-container .nav {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-content: center;
+        justify-content: center;
         height: 12vh;
 
         @media screen and (max-width: 960px) {
@@ -19,7 +19,6 @@ header {
         ul {
             display: flex;
             align-items: center;
-            justify-content: flex-end;
 
             li {                
                 display: inline;
@@ -32,11 +31,13 @@ header {
                     color: nth($colors, 5);    
 
                     img {                        
-                        width: 13%;
+                        width: 10vw;
                     }
                 
                     &:hover {
-                        opacity: 50%;
+                        animation: hover-menu;
+                        animation-duration: 0.5s;
+                        opacity: 0.7;
                     }
                 }
             }
