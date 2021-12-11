@@ -10,11 +10,10 @@ form {
     }
 
     h2 {
-        color: nth($grayscale, 2);
+        color: nth($grayscale, 1);
     }
 
     ul {
-        opacity: 90%;
         
         li{
             list-style: none;
@@ -30,7 +29,7 @@ form {
                 border: 1px solid #c1c2c7;
 
                 &:focus {
-                    background: nth($colors, 4);
+                    background: nth($colors, 3);
                     outline: none;
                 }
 

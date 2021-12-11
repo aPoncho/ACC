@@ -1,9 +1,9 @@
 @keyframes hover-menu {
     from {
-        opacity: 1;
+        color: nth($colors, 5);
     }
     to {
-        opacity: 0.7;
+        color: nth($colors, 4);
     }
 }
 
