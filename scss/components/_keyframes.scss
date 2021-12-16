@@ -3,7 +3,7 @@
         color: nth($colors, 5);
     }
     to {
-        color: nth($colors, 4);
+        color: nth($grayscale, 1);
     }
 }
 
