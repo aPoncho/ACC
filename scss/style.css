@@ -71,6 +71,12 @@ header {
   /*barra navegacion movil/tablet */
 }
 
+@media screen and (max-width: 960px) {
+  header {
+    height: 65px;
+  }
+}
+
 header .nav-container {
   display: -ms-grid;
   display: grid;
@@ -449,6 +455,8 @@ form {
   background-image: url("../../src/multimedia/images/panoramica-campo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #a5dcf1;
+  background-blend-mode: overlay;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -460,21 +468,6 @@ form {
       -ms-flex-align: center;
           align-items: center;
   padding: 7em;
-}
-
-@media screen and (max-width: 960px) {
-  form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
 }
 
 form h2 {
@@ -498,7 +491,7 @@ form ul li .input-area {
 }
 
 form ul li .input-area:focus {
-  background: #77ad9e;
+  background: #c1e0d2;
   outline: none;
 }
 
@@ -507,7 +500,7 @@ form ul li .submit {
   max-width: 80vw;
   border: 1px solid #c1c2c7;
   border-radius: 5px;
-  background-color: #c1e0d2;
+  background-color: #77ad9e;
 }
 
 form ul li .submit:hover {
@@ -561,5 +554,6 @@ footer div img li, footer div iframe li, footer div ul li {
 
 footer div img li a, footer div iframe li a, footer div ul li a {
   text-decoration: none;
+  color: #00382b;
 }
 /*# sourceMappingURL=style.css.map */

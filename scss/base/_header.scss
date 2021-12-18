@@ -7,6 +7,11 @@ header {
     width: 100%;  
     height: 12vh;
 
+    @media screen and (max-width: 960px) {
+        height: 65px;
+        
+    }
+
     .nav-container {
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
@@ -20,11 +25,11 @@ header {
             justify-content: center;
             grid-column: 1 / 2;
         
-        img {          
-            
-            max-height: 12vh;
+            img {          
+                max-height: 12vh;
+            }
         }
-        }
+        
         .nav {
             height: 12vh;
             grid-column: 3 / 4;
