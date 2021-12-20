@@ -1,18 +1,22 @@
 form {
+    margin-left: -1.5rem;
     background-image: url('../../src/multimedia/images/panoramica-campo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(165, 220, 241);
     background-blend-mode: overlay;
     @include section-container-mobile;
-    padding: 7em;
+    padding: 7rem;
 
     h2 {
+        font-weight: 800;
+        font-size: 2.6rem;
         color: nth($grayscale, 1);
+        margin-bottom: 4rem;
     }
 
     ul {
-        
+
         li{
             list-style: none;
             margin-top: 1em;

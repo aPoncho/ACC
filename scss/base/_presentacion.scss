@@ -1,12 +1,18 @@
 .presentacion {
-    padding: 10em;
+    padding: 10rem;
     text-align: center;
     background-color: nth($colors, 5);
+
+    @media screen and (max-width:480px) {
+        margin: 0;
+        padding: 3rem;
+    }
     
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-weight: 700;
-        color: nth($grayscale, 1);
+        color: nth($colors, 1);
+        padding: 1rem;
     }
     
     h2 {

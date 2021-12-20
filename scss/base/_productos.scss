@@ -5,31 +5,65 @@
     font-size: 1.4rem;
 
     h3 {
-        margin-top: 60px;
-        margin-bottom: 100px;
-        font-size: 2rem;
+        font-weight: 800;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        font-size: 3rem;
         color: nth($grayscale, 1);
     }
     
     .productos-contenedor {
         @include section-container;
-        margin-top: 25px;
+        margin-left: 2.5rem;
         color: nth($grayscale, 2);
 
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 769px) {
             @include section-container-mobile;
+        }
+
+        .prod-texto {
+            h4 {
+                text-decoration: underline nth($colors, 3);
+                margin-bottom: 2rem;
+                font-size: 1.7rem;
+            }
+            p {
+                text-align: justify;
+                text-justify: center;
+                word-spacing: 0.2rem;
+                margin-bottom: 5rem;
+
+                &:first-letter {
+                    color: nth($colors, 1);
+                    text-decoration: underline;
+                    font-size: 1.8rem;
+                }
+            }
         }
 
         .img-contenedor {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
+
+            @media screen and (max-width: 768px) {
+                @include section-container-mobile;
+                
+            }
         
             div img{
-                border-radius: 70%;
-                width: 50%;
-                height: 70%;
+                border-radius: 2rem;
+                width: 80%;
+                height: 60%;
                 opacity: 50%;
+                
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                    border-radius: 5%;
+                    max-height: 50vh;
+                    opacity: 1;
+                    margin-bottom: 2rem;
+                }
             }
 
             div img:hover {
