@@ -90,6 +90,13 @@ header {
             display: none;
         }
 
+        img {
+            max-height: 10vh;
+            position: absolute;
+            right: 5px;
+            top: -8px
+        }
+
         #menuToggle {
             display: flex;
             flex-direction: column;

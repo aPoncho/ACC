@@ -1,11 +1,15 @@
 
 /*falta corregir alturas de las imagenes en un editor*/
 #top {
-    @media screen and (min-width: 641px) {
+    @media screen and (min-width: 769px) {
     height: 100vh;
     }
 
-    @media screen and (max-width: 640) {        
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        height: 50vh;
+    }
+
+    @media screen and (max-width: 480px) {        
         height: 40vh;
     }
 

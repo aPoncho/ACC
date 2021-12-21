@@ -19,6 +19,7 @@
 
         @media screen and (max-width: 769px) {
             @include section-container-mobile;
+            margin-left: 0;
         }
 
         .prod-texto {
